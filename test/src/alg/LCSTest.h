@@ -52,7 +52,7 @@ public:
 			ex.printLCS();
 			finish=clock();
 			duration+=(double)(finish-start)/CLOCKS_PER_SEC;;
-			cout<<endl;
+			cout<<endl;	
 		}
 
 		cout << "一共耗时:"<<duration<<"s"<<endl;
