@@ -1,0 +1,85 @@
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+test	ArticulationPoint.cpp	/^void ArticulationPointRevealer::test()$/;"	f	class:ArticulationPointRevealer
+ArticulationPointRevealer	ArticulationPoint.h	/^class ArticulationPointRevealer$/;"	c
+Matrix	ArticulationPoint.h	/^	vector<vector<double>> Matrix;$/;"	m	class:ArticulationPointRevealer
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+A	classFunPointer.h	/^class A{$/;"	c
+CLASSFUNPOINTER_H	classFunPointer.h	2;"	d
+Test	classFunPointer.h	/^inline void Test(A &a,void (A::* p)(string s)){$/;"	f
+classFunPointerTest1	classFunPointer.h	/^inline void classFunPointerTest1()$/;"	f
+classFunPointerTest2	classFunPointer.h	/^inline void classFunPointerTest2()$/;"	f
+classFunPointerTest3	classFunPointer.h	/^inline void classFunPointerTest3()$/;"	f
+fun	classFunPointer.h	/^	void fun(string s){cout<<s<<endl;}$/;"	f	class:A
+fun1	classFunPointer.h	/^	void fun1(string s){cout<<endl;}$/;"	f	class:A
+func	classFunPointer.h	/^	static void func(string s){cout<<s<<endl;}$/;"	f	class:A
+func	classFunPointer.h	/^inline void func(string s){$/;"	f
+i	classFunPointer.h	/^	int i;$/;"	m	class:A
+execute	generalClosestPair.cpp	/^void GeneralClosestPair::execute(int dimension,vector<Point> &_points)$/;"	f	class:GeneralClosestPair
+findClosestPair	generalClosestPair.cpp	/^Pair GeneralClosestPair::findClosestPair(int curDimension,vector<Point> &points,\\$/;"	f	class:GeneralClosestPair
+sortPointByLastAxis	generalClosestPair.cpp	/^bool sortPointByLastAxis(const Point &p1,const Point &p2)$/;"	f
+test	generalClosestPair.cpp	/^void GeneralClosestPair::test()$/;"	f	class:GeneralClosestPair
+GENERALCLOESTPAIR_H	generalClosestPair.h	2;"	d
+GeneralClosestPair	generalClosestPair.h	/^class GeneralClosestPair{$/;"	c
+Pair	generalClosestPair.h	/^	Pair(){distance=INFINITY;}$/;"	f	class:Pair
+Pair	generalClosestPair.h	/^	Pair(Point p1,Point p2)$/;"	f	class:Pair
+Pair	generalClosestPair.h	/^class Pair$/;"	c
+Point	generalClosestPair.h	/^	Point(){dimension=0;}$/;"	f	class:Point
+Point	generalClosestPair.h	/^	Point(int _dimension):dimension(_dimension)$/;"	f	class:Point
+Point	generalClosestPair.h	/^class Point{$/;"	c
+axis	generalClosestPair.h	/^	vector <double> axis;$/;"	m	class:Point
+compare	generalClosestPair.h	/^	bool compare(const Pair &pair)$/;"	f	class:Pair
+dest1	generalClosestPair.h	/^	Point 	dest1;$/;"	m	class:Pair
+dest2	generalClosestPair.h	/^	Point 	dest2;$/;"	m	class:Pair
+dimension	generalClosestPair.h	/^	int dimension;$/;"	m	class:GeneralClosestPair
+dimension	generalClosestPair.h	/^	int dimension;$/;"	m	class:Point
+distance	generalClosestPair.h	/^	double 	distance;$/;"	m	class:Pair
+distanceTwoPoints	generalClosestPair.h	/^inline double distanceTwoPoints(const Point &point1,const Point&point2)$/;"	f
+operator =	generalClosestPair.h	/^	void operator =(Point &tmp)$/;"	f	class:Point
+operator =	generalClosestPair.h	/^	void operator=(Pair&tmp)$/;"	f	class:Pair
+print	generalClosestPair.h	/^	void print()$/;"	f	class:Pair
+print	generalClosestPair.h	/^	void print()$/;"	f	class:Point
+update	generalClosestPair.h	/^	bool update(const Pair &pair)$/;"	f	class:Pair
+update	generalClosestPair.h	/^	bool update(const Point &p1,const Point &p2)$/;"	f	class:Pair
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+interview	interview.cpp	/^void interview(){$/;"	f
+main	main.cpp	/^int main(){$/;"	f
+_GRADIENTDESCENDOPTMIZER_	myGradientDescendOptimizer.h	2;"	d
+alpha	myGradientDescendOptimizer.h	/^	double alpha;$/;"	m	class:myGradientDescendOptimizer
+delta	myGradientDescendOptimizer.h	/^	double delta;$/;"	m	class:myGradientDescendOptimizer
+derivative	myGradientDescendOptimizer.h	/^	double *derivative;$/;"	m	class:myGradientDescendOptimizer
+f	myGradientDescendOptimizer.h	/^	double (*f)(T ,int);$/;"	m	class:myGradientDescendOptimizer
+fun	myGradientDescendOptimizer.h	/^inline double fun(double *varible,int numVarible){$/;"	f
+max_step	myGradientDescendOptimizer.h	/^	int max_step;$/;"	m	class:myGradientDescendOptimizer
+myGadientDescendOptimizerTest	myGradientDescendOptimizer.h	/^inline void myGadientDescendOptimizerTest(){$/;"	f
+myGradientDescendOptimizer	myGradientDescendOptimizer.h	/^class myGradientDescendOptimizer{$/;"	c
+myGradientDescendOptimizer	myGradientDescendOptimizer.h	/^myGradientDescendOptimizer<T>::myGradientDescendOptimizer($/;"	f	class:myGradientDescendOptimizer
+numVarible	myGradientDescendOptimizer.h	/^	int numVarible;$/;"	m	class:myGradientDescendOptimizer
+optimize	myGradientDescendOptimizer.h	/^void myGradientDescendOptimizer<T>::optimize(){$/;"	f	class:myGradientDescendOptimizer
+setDelta	myGradientDescendOptimizer.h	/^void myGradientDescendOptimizer<T>::setDelta(double _delta){$/;"	f	class:myGradientDescendOptimizer
+varible	myGradientDescendOptimizer.h	/^	T varible;$/;"	m	class:myGradientDescendOptimizer
+~myGradientDescendOptimizer	myGradientDescendOptimizer.h	/^myGradientDescendOptimizer<T>::~myGradientDescendOptimizer(){$/;"	f	class:myGradientDescendOptimizer
+naiveBayes	navie bayes.cpp	/^void naiveBayes(){$/;"	f
+ATOM_NUMBERS	transformer.h	9;"	d
+D3DXMATRIX	transformer.h	/^class D3DXMATRIX{$/;"	c
+D3DXVECTOR3	transformer.h	/^	D3DXVECTOR3(){};$/;"	f	class:D3DXVECTOR3
+D3DXVECTOR3	transformer.h	/^	D3DXVECTOR3(vector<double>_v){$/;"	f	class:D3DXVECTOR3
+D3DXVECTOR3	transformer.h	/^class D3DXVECTOR3{$/;"	c
+Ncrd	transformer.h	/^	vector<vector<double> > Ncrd;$/;"	m	class:transformer
+PI	transformer.h	10;"	d
+RotateArbitraryLine	transformer.h	/^void RotateArbitraryLine(D3DXMATRIX &pOut, D3DXVECTOR3 v1, D3DXVECTOR3 v2, double theta)$/;"	f
+TRANSFORMER_H_	transformer.h	2;"	d
+atom_num	transformer.h	/^	int atom_num;$/;"	m	class:transformer
+crd	transformer.h	/^	vector<vector<double> > crd;$/;"	m	class:transformer
+m	transformer.h	/^	double m[4][4];$/;"	m	class:D3DXMATRIX
+normalize	transformer.h	/^	void normalize(){$/;"	f	class:D3DXVECTOR3
+operator -	transformer.h	/^	D3DXVECTOR3 & operator-(const D3DXVECTOR3 & v2){$/;"	f	class:D3DXVECTOR3
+print	transformer.h	/^void transformer::print()$/;"	f	class:transformer
+transform	transformer.h	/^void transformer::transform(D3DXVECTOR3 v1,D3DXVECTOR3 v2,double degree){$/;"	f	class:transformer
+transformer	transformer.h	/^class transformer{$/;"	c
+transformer	transformer.h	/^transformer::transformer(double *_crd){$/;"	f	class:transformer
+x	transformer.h	/^	double x;$/;"	m	class:D3DXVECTOR3
+y	transformer.h	/^	double y;$/;"	m	class:D3DXVECTOR3
+z	transformer.h	/^	double z;$/;"	m	class:D3DXVECTOR3
