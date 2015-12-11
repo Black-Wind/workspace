@@ -11,9 +11,8 @@ using namespace std;
 int main()
 {
 
-	LCSTest test;
-	test.simpleTest();
-	test.execute();
+	AkariTest test;
+	test.excute();
 	return 0;
 }
 
