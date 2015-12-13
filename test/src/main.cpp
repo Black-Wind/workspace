@@ -12,7 +12,8 @@ int main()
 {
 
 	AkariTest test;
-	test.excute();
+	test.simpleTest();
+	// test.excute();
 	return 0;
 }
 
